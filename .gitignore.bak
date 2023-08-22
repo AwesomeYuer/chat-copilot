@@ -417,7 +417,7 @@ config.development.yaml
 *.development.json
 .DS_Store
 .idea/
-*node_modules*/
+node_modules/
 obj/
 bin/
 _dev/
@@ -477,7 +477,7 @@ playwright-report/
 # Static Web App deployment config
 swa-cli.config.json
 webapp/build/
-webapp/*node_modules*/
+webapp/node_modules/
 
 # Custom plugin files used in webapp for testing
 webapp/public/.well-known*
